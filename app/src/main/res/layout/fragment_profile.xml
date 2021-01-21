@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgBookImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:src="@drawable/default_book_cover" />
+
+    <TextView
+        android:id="@+id/txtdeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBookImage"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Developer(Raj Yadav)"
+        android:textColor="@color/purple_500"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdeveloper"
+        android:layout_centerHorizontal="true"
+        android:text="West Bengal"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtState"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_500"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_call"
+            android:text=" +91 8250930535"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_mail"
+            android:padding="5dp"
+            android:text="  rajyadav10000001@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
